@@ -360,11 +360,6 @@ MAIN_TEMPLATE = Template(
     </header>
 
     <div class="summary">$summary</div>
-    
-    <section>
-      <h2><span class="section-initial">E</span>DUCATION</h2>
-      $education_entries
-    </section>
 
     <section>
       <h2><span class="section-initial">S</span>KILLS</h2>
@@ -381,6 +376,11 @@ MAIN_TEMPLATE = Template(
     <section>
       <h2><span class="section-initial">P</span>ROFESSIONAL DEVELOPMENT & CAREER BREAK</h2>
       $project_entries
+    </section>
+    
+    <section>
+      <h2><span class="section-initial">E</span>DUCATION</h2>
+      $education_entries
     </section>
 
   </main>
@@ -713,11 +713,6 @@ ATS_TEMPLATE = Template(
     <div class="summary">$summary</div>
 
     <section>
-      <h2><span class="section-initial">E</span>DUCATION</h2>
-      $education_entries
-    </section>
-
-    <section>
       <h2><span class="section-initial">S</span>KILLS</h2>
       <div class="skill-lines">
         $skill_items
@@ -732,6 +727,11 @@ ATS_TEMPLATE = Template(
     <section>
       <h2><span class="section-initial">P</span>ROFESSIONAL DEVELOPMENT</h2>
       $project_entries
+    </section>
+    
+    <section>
+      <h2><span class="section-initial">E</span>DUCATION</h2>
+      $education_entries
     </section>
 
   </main>
