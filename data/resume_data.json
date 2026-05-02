@@ -1,0 +1,130 @@
+{
+  "site": {
+    "main_title": "Li Zhang | Java Backend Developer Resume | Spring Boot | Germany",
+    "ats_title": "Li Zhang | ATS Resume | Java Backend Developer | Germany",
+    "favicon": "favicon.svg",
+    "pdf_filename": "li_zhang_java_backend.pdf",
+    "ats_pdf_filename": "li_zhang_java_backend_ats.pdf"
+  },
+  "person": {
+    "name": "Li Zhang",
+    "email": "lilyzhang4751@gmail.com",
+    "relocation": "Willing to relocate to Germany",
+    "languages": "Chinese (Native) | English (Professional) | German (Currently learning)",
+    "profiles": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/lilyzhang4751",
+        "display": "github.com/lilyzhang4751"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lily-zhang-97b187228/",
+        "display": "linkedin.com/in/lily-zhang-97b187228"
+      }
+    ]
+  },
+  "summary": "Java Backend Developer with 4.5 years of experience in high-concurrency logistics and parcel fulfillment systems. Strong background in Java, Spring Boot, Kafka, MySQL, Redis, RESTful APIs, asynchronous processing, and production troubleshooting. Experienced in supporting promotional peak traffic, with core APIs handling up to 5,000 QPS and over 100 million daily operation requests.",
+  "education": [
+    {
+      "organization": "University of Bristol",
+      "url": "https://www.bristol.ac.uk/",
+      "dates": "Sep 2019 - Dec 2020",
+      "subtitle": "MSc in Computer Science",
+      "note": "Relevant coursework: Object-Oriented Programming with Java, Software Engineering, Databases, Computer Architecture."
+    },
+    {
+      "organization": "Jilin University",
+      "url": "https://en.jlu.edu.cn/",
+      "dates": "Aug 2013 - Jun 2017",
+      "subtitle": "BEng in Communication Engineering",
+      "note": "Engineering foundation in communication systems, computer fundamentals, mathematics, and problem-solving."
+    }
+  ],
+  "skills": [
+      {
+        "label": "Backend Development",
+        "value": "Java, Spring Boot, RESTful APIs, Dubbo/RPC, MyBatis"
+      },
+      {
+        "label": "Data / Messaging",
+        "value": "MySQL, Redis, Elasticsearch, Kafka, SQL, transactions, indexing, async processing, idempotency"
+      },
+      {
+        "label": "Engineering / Ops",
+        "value": "Maven, Git, Docker, Linux, Kubernetes, CI/CD, Kibana, canary deployments"
+      },
+      {
+        "label": "Project Stack",
+        "value": "Spring Security, JWT, PostgreSQL, JUnit 5, Testcontainers, GitHub Actions"
+      }
+  ],
+  "experience": [
+    {
+      "organization": "Pinduoduo",
+      "url": "https://pddholdings.com/",
+      "dates": "Dec 2020 - Jul 2025",
+      "role": "Java Backend Developer",
+      "tech_stack":"Tech Stack: Java, Spring Boot, Dubbo RPC, Kafka, MySQL, MyBatis, Redis, Elasticsearch, Kubernetes, Kibana",
+      "note": "Worked on a high-concurrency logistics fulfillment system covering parcel inbound/outbound workflows, status transitions, and asynchronous downstream notifications.",
+      "bullets": [
+        {
+          "label": "Backend",
+          "text": "Developed Java/Spring Boot/Dubbo RPC backend services for logistics fulfillment, including core APIs, status transitions, and asynchronous workflows."
+        },
+        {
+          "label": "Scale",
+          "text": "Supported high-concurrency promotion traffic, with APIs handling up to 5,000 QPS and over 100 million daily core operation requests."
+        },
+        {
+          "label": "Messaging",
+          "text": "Implemented Kafka-based asynchronous messaging to decouple core services from downstream systems such as logistics, e-commerce, SMS, and voice notification services."
+        },
+        {
+          "label": "Reliability",
+          "text": "Improved system reliability through idempotency design, retry handling, exception recovery, and delayed message handling."
+        },
+        {
+          "label": "Data & Performance",
+          "text": "Used MySQL, MyBatis, Redis, and Elasticsearch for data persistence, caching, search, consistency handling, and database load reduction."
+        },
+        {
+          "label": "Operations",
+          "text": "Used Kibana for production troubleshooting and supported Kubernetes releases, canary deployments, and KMS-based sensitive data encryption."
+        }
+      ]
+    },
+    {
+      "organization": "Guangzhou Huizhi Communication Technology Co., Ltd.",
+      "url": "http://www.teligen.net/",
+      "dates": "Jul 2017 - Jun 2019",
+      "role": "Pre-sales Engineer",
+      "tech_stack":"",
+      "bullets": [
+        {
+          "label": "Summary",
+          "text": "Supported telecommunications projects through technical solution support, bidding documentation, and customer communication, building strong requirement analysis and cross-functional collaboration skills."
+        }
+      ]
+    }
+  ],
+  "project": [
+      {
+        "organization": "Career Break, Travel & Backend Engineering Refresh",
+        "url": "https://github.com/lilyzhang4751/Parcel-Hub-Core",
+        "dates": "Aug 2025 - Present",
+        "note": "Took a planned career break after leaving Pinduoduo, including travel, relocation preparation, and focused backend engineering refresh for the German job market.",
+        
+        "bullets": [
+            {
+            "label": "Project",
+            "text": "Built Parcel-Hub-Platform, a Java 21 / Spring Boot logistics backend project covering parcel inbound/outbound workflows, user authentication, parcel status transitions, and event publishing."
+            },
+            {
+            "label": "Engineering Focus",
+            "text": "Practiced Kafka-based asynchronous messaging, Transactional Outbox, PostgreSQL, Redis, Spring Security JWT, integration testing with Testcontainers, and CI workflows with GitHub Actions."
+            }
+        ]
+      }
+  ]
+}
