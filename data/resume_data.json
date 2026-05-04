@@ -24,7 +24,7 @@
       }
     ]
   },
-  "summary": "Java Backend Developer with 4.5 years of experience in high-concurrency logistics and parcel fulfillment systems. Strong background in Java, Spring Boot, Kafka, MySQL, Redis, RESTful APIs, asynchronous processing, and production troubleshooting. Experienced in supporting promotional peak traffic, with core APIs handling up to 5,000 QPS and over 100 million daily operation requests.",
+  "summary": "Java Backend Developer with 4.5 years of experience in high-concurrency logistics and parcel fulfillment systems. Strong background in Java, Spring Boot, Kafka, MySQL, Redis, RESTful APIs, asynchronous processing, and production troubleshooting. Experienced in supporting backend services within a high-traffic logistics platform, where core APIs handled up to 5,000 QPS and over 100 million daily operation requests during promotional peaks.",
   "education": [
     {
       "organization": "University of Bristol",
@@ -74,7 +74,7 @@
         },
         {
           "label": "Scale",
-          "text": "Supported high-concurrency promotion traffic, with APIs handling up to 5,000 QPS and over 100 million daily core operation requests."
+          "text": "Scale: Supported backend services within a high-traffic logistics platform during promotional peaks, where core APIs handled up to 5,000 QPS and over 100 million daily operation requests."
         },
         {
           "label": "Messaging",
