@@ -118,7 +118,7 @@
         "bullets": [
             {
             "label": "Project",
-            "text": "Built Parcel-Hub-Platform, a Java 21 / Spring Boot logistics backend project covering parcel inbound/outbound workflows, user authentication, parcel status transitions, and event publishing."
+            "text": "Built Parcel-Hub-Core, a Java 21 / Spring Boot logistics backend project covering parcel inbound/outbound workflows, user authentication, parcel status transitions, and event publishing."
             },
             {
             "label": "Engineering Focus",
