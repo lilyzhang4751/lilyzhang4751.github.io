@@ -19,12 +19,12 @@
       },
       {
         "label": "LinkedIn",
-        "url": "https://www.linkedin.com/in/lily-zhang-97b187228/",
+        "url": "https://www.linkedin.com/in/li-zhang-97b187228/",
         "display": "linkedin.com/in/lily-zhang-97b187228"
       }
     ]
   },
-  "summary": "Java Backend Developer with 4.5 years of experience in high-concurrency logistics and parcel fulfillment systems. Strong background in Java, Spring Boot, Kafka, MySQL, Redis, RESTful APIs, asynchronous processing, and production troubleshooting. Experienced in supporting backend services within a high-traffic logistics platform, where core APIs handled up to 5,000 QPS and over 100 million daily operation requests during promotional peaks.",
+  "summary": "Java Backend Developer with 4.5 years of experience building high-traffic logistics backend systems at Pinduoduo. Strong background in Java, Spring Boot, Kafka, MySQL, Redis, RESTful APIs, asynchronous processing, and production troubleshooting. Supported backend services where peak traffic reached around 5,000 QPS and over 100 million daily operation requests during promotional peaks. Strong focus on concurrency control, idempotency, transaction boundaries, and Kafka-based asynchronous workflows.",
   "education": [
     {
       "organization": "University of Bristol",
@@ -44,11 +44,11 @@
   "skills": [
       {
         "label": "Backend Development",
-        "value": "Java, Spring Boot, RESTful APIs, Dubbo/RPC, MyBatis"
+        "value": "Java, Spring Boot, RESTful APIs, Dubbo/RPC, MyBatis, Spring Data JPA/Hibernate"
       },
       {
         "label": "Data / Messaging",
-        "value": "MySQL, Redis, Elasticsearch, Kafka, SQL, transactions, indexing, async processing, idempotency"
+        "value": "MySQL, PostgreSQL, Redis, Elasticsearch, Kafka, SQL, transactions, indexing, async processing, idempotency"
       },
       {
         "label": "Engineering / Ops",
@@ -56,44 +56,40 @@
       },
       {
         "label": "Project Stack",
-        "value": "Spring Security, JWT, PostgreSQL, JUnit 5, Testcontainers, GitHub Actions"
+        "value": "Spring Security, JWT, JUnit 5, Testcontainers, GitHub Actions"
       }
   ],
   "experience": [
-    {
-      "organization": "Pinduoduo",
-      "url": "https://pddholdings.com/",
-      "dates": "Dec 2020 - Jul 2025",
-      "role": "Java Backend Developer",
-      "tech_stack":"Tech Stack: Java, Spring Boot, Dubbo RPC, Kafka, MySQL, MyBatis, Redis, Elasticsearch, Kubernetes, Kibana",
-      "note": "Worked on a high-concurrency logistics fulfillment system covering parcel inbound/outbound workflows, status transitions, and asynchronous downstream notifications.",
-      "bullets": [
-        {
-          "label": "Backend",
-          "text": "Developed Java/Spring Boot/Dubbo RPC backend services for logistics fulfillment, including core APIs, status transitions, and asynchronous workflows."
-        },
-        {
-          "label": "Scale",
-          "text": "Supported backend services within a high-traffic logistics platform during promotional peaks, where core APIs handled up to 5,000 QPS and over 100 million daily operation requests."
-        },
-        {
-          "label": "Messaging",
-          "text": "Implemented Kafka-based asynchronous messaging to decouple core services from downstream systems such as logistics, e-commerce, SMS, and voice notification services."
-        },
-        {
-          "label": "Reliability",
-          "text": "Improved system reliability through idempotency design, retry handling, exception recovery, and delayed message handling."
-        },
-        {
-          "label": "Data & Performance",
-          "text": "Used MySQL, MyBatis, Redis, and Elasticsearch for data persistence, caching, search, consistency handling, and database load reduction."
-        },
-        {
-          "label": "Operations",
-          "text": "Used Kibana for production troubleshooting and supported Kubernetes releases, canary deployments, and KMS-based sensitive data encryption."
-        }
-      ]
-    },
+      {
+        "organization": "Pinduoduo",
+        "url": "https://en.wikipedia.org/wiki/Pinduoduo",
+        "dates": "Dec 2020 - Jul 2025",
+        "role": "Java Backend Developer",
+        "tech_stack": "Tech Stack: Java, Spring Boot, Dubbo RPC, Kafka, MySQL, MyBatis, Redis, Elasticsearch, Kubernetes",
+        "note": "Worked on Duoduo Parcel Pickup Station, a high-traffic backend platform used by pickup station operators to manage parcel lifecycle data and trigger downstream notifications.",
+        "bullets": [
+          {
+            "label": "Backend",
+            "text": "Developed Java/Spring Boot/Dubbo RPC backend services for core parcel workflows, including preprocessing, check-in/check-out operations, inventory checks, shelf changes, returns, and status transitions."
+          },
+          {
+            "label": "Scale",
+            "text": "Supported backend APIs where preprocessing traffic reached around 5,000 QPS and daily core operation requests could exceed 100 million during traffic peaks."
+          },
+          {
+            "label": "Concurrency & Consistency",
+            "text": "Used Redis-based distributed locking, Redis caching, MySQL sharding, and local transactions to support high-concurrency parcel operations and maintain consistency between different records."
+          },
+          {
+            "label": "Messaging & Reliability",
+            "text": "Implemented Kafka-based asynchronous notification workflows, including delayed SMS delivery, cancellation handling, retry handling, and idempotent processing across SMS, WeChat, and app push channels."
+          },
+          {
+            "label": "Search & Observability",
+            "text": "Used Elasticsearch for cross-station and complex parcel searches, and used Kibana and internal metrics platforms for log analysis, monitoring, production troubleshooting, and release support in a Kubernetes-based environment."
+          }
+        ]
+      },
     {
       "organization": "Guangzhou Huizhi Communication Technology Co., Ltd.",
       "url": "http://www.teligen.net/",
@@ -122,7 +118,7 @@
             },
             {
             "label": "Engineering Focus",
-            "text": "Practiced Kafka-based asynchronous messaging, Transactional Outbox, PostgreSQL, Redis, Spring Security JWT, integration testing with Testcontainers, and CI workflows with GitHub Actions."
+            "text": "Practiced Kafka-based asynchronous messaging, Transactional Outbox, PostgreSQL, SpringData JPA/Hibernate, Redis, Spring Security JWT, integration testing with Testcontainers, and CI workflows with GitHub Actions."
             }
         ]
       }
