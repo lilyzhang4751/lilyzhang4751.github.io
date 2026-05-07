@@ -342,7 +342,7 @@
           <li><span class="label">Backend:</span> Developed Java/Spring Boot/Dubbo RPC backend services for core parcel workflows, including preprocessing, check-in/check-out operations, inventory checks, shelf changes, returns, and status transitions.</li>
           <li><span class="label">Scale:</span> Supported backend APIs where preprocessing traffic reached around 5,000 QPS and daily core operation requests could exceed 100 million during traffic peaks.</li>
           <li><span class="label">Concurrency &amp; Consistency:</span> Used Redis-based distributed locking, Redis caching, MySQL sharding, and local transactions to support high-concurrency parcel operations and maintain consistency between different records.</li>
-          <li><span class="label">Messaging &amp; Reliability:</span> Implemented Kafka-based asynchronous notification workflows, including delayed SMS delivery, cancellation handling, intelligent voice call callbacks, retry handling, and idempotent processing across SMS, WeChat, and app push channels.</li>
+          <li><span class="label">Messaging &amp; Reliability:</span> Implemented Kafka-based asynchronous notification workflows, including intelligent voice, delayed SMS delivery, cancellation handling, retry handling, and idempotent processing.</li>
           <li><span class="label">Search &amp; Observability:</span> Used Elasticsearch for cross-station and complex parcel searches, and used Kibana and internal metrics platforms for log analysis, monitoring, production troubleshooting, and release support in a Kubernetes-based environment.</li>
         </ul>
       </div>
