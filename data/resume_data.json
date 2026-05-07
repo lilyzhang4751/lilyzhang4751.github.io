@@ -42,60 +42,60 @@
     }
   ],
   "skills": [
-      {
-        "label": "Backend Development",
-        "value": "Java, Spring Boot, RESTful APIs, Dubbo/RPC, MyBatis, Spring Data JPA/Hibernate"
-      },
-      {
-        "label": "Data / Messaging",
-        "value": "MySQL, PostgreSQL, Redis, Elasticsearch, Kafka, SQL, transactions, indexing, async processing, idempotency"
-      },
-      {
-        "label": "Engineering / Ops",
-        "value": "Maven, Git, Docker, Linux, Kubernetes, CI/CD, Kibana, canary deployments"
-      },
-      {
-        "label": "Project Stack",
-        "value": "Spring Security, JWT, JUnit 5, Testcontainers, GitHub Actions"
-      }
+    {
+      "label": "Backend Development",
+      "value": "Java, Spring Boot, RESTful APIs, Dubbo/RPC, MyBatis, Spring Data JPA/Hibernate"
+    },
+    {
+      "label": "Data / Messaging",
+      "value": "MySQL, PostgreSQL, Redis, Elasticsearch, Kafka, SQL, transactions, indexing, async processing, idempotency"
+    },
+    {
+      "label": "Engineering / Ops",
+      "value": "Maven, Git, Docker, Linux, Kubernetes, CI/CD, Kibana, canary deployments"
+    },
+    {
+      "label": "Project Stack",
+      "value": "Spring Security, JWT, JUnit 5, Testcontainers, GitHub Actions"
+    }
   ],
   "experience": [
-      {
-        "organization": "Pinduoduo",
-        "url": "https://en.wikipedia.org/wiki/Pinduoduo",
-        "dates": "Dec 2020 - Jul 2025",
-        "role": "Java Backend Developer",
-        "tech_stack": "Tech Stack: Java, Spring Boot, Dubbo RPC, Kafka, MySQL, MyBatis, Redis, Elasticsearch, Kubernetes",
-        "note": "Worked on Duoduo Parcel Pickup Station, a high-traffic backend platform used by pickup station operators to manage parcel lifecycle data and trigger downstream notifications.",
-        "bullets": [
-          {
-            "label": "Backend",
-            "text": "Developed Java/Spring Boot/Dubbo RPC backend services for core parcel workflows, including preprocessing, check-in/check-out operations, inventory checks, shelf changes, returns, and status transitions."
-          },
-          {
-            "label": "Scale",
-            "text": "Supported backend APIs where preprocessing traffic reached around 5,000 QPS and daily core operation requests could exceed 100 million during traffic peaks."
-          },
-          {
-            "label": "Concurrency & Consistency",
-            "text": "Used Redis-based distributed locking, Redis caching, MySQL sharding, and local transactions to support high-concurrency parcel operations and maintain consistency between different records."
-          },
-          {
-            "label": "Messaging & Reliability",
-            "text": "Implemented Kafka-based asynchronous notification workflows, including delayed SMS delivery, cancellation handling, retry handling, and idempotent processing across SMS, WeChat, and app push channels."
-          },
-          {
-            "label": "Search & Observability",
-            "text": "Used Elasticsearch for cross-station and complex parcel searches, and used Kibana and internal metrics platforms for log analysis, monitoring, production troubleshooting, and release support in a Kubernetes-based environment."
-          }
-        ]
-      },
+    {
+      "organization": "Pinduoduo",
+      "url": "https://en.wikipedia.org/wiki/Pinduoduo",
+      "dates": "Dec 2020 - Jul 2025",
+      "role": "Java Backend Developer",
+      "tech_stack": "Tech Stack: Java, Spring Boot, Dubbo RPC, Kafka, MySQL, MyBatis, Redis, Elasticsearch, Kubernetes",
+      "note": "Worked on Duoduo Parcel Pickup Station, a high-traffic backend platform used by pickup station operators to manage parcel lifecycle data and trigger downstream notifications.",
+      "bullets": [
+        {
+          "label": "Backend",
+          "text": "Developed Java/Spring Boot/Dubbo RPC backend services for core parcel workflows, including preprocessing, check-in/check-out operations, inventory checks, shelf changes, returns, and status transitions."
+        },
+        {
+          "label": "Scale",
+          "text": "Supported backend APIs where preprocessing traffic reached around 5,000 QPS and daily core operation requests could exceed 100 million during traffic peaks."
+        },
+        {
+          "label": "Concurrency & Consistency",
+          "text": "Used Redis-based distributed locking, Redis caching, MySQL sharding, and local transactions to support high-concurrency parcel operations and maintain consistency between different records."
+        },
+        {
+          "label": "Messaging & Reliability",
+          "text": "Implemented Kafka-based asynchronous notification workflows, including intelligent voice, delayed SMS delivery, cancellation handling, retry handling, and idempotent processing."
+        },
+        {
+          "label": "Search & Observability",
+          "text": "Used Elasticsearch for cross-station and complex parcel searches, and used Kibana and internal metrics platforms for log analysis, monitoring, production troubleshooting, and release support in a Kubernetes-based environment."
+        }
+      ]
+    },
     {
       "organization": "Guangzhou Huizhi Communication Technology Co., Ltd.",
       "url": "http://www.teligen.net/",
       "dates": "Jul 2017 - Jun 2019",
       "role": "Pre-sales Engineer",
-      "tech_stack":"",
+      "tech_stack": "",
       "bullets": [
         {
           "label": "Summary",
@@ -105,23 +105,21 @@
     }
   ],
   "project": [
-      {
-        "organization": "Career Break & Backend Engineering Refresh",
-        "url": "https://github.com/lilyzhang4751/Parcel-Hub-Core",
-        "dates": "Aug 2025 - Present",
-        "note": "Took a planned career break after leaving Pinduoduo, including travel, relocation preparation, and focused backend engineering refresh for the German job market.",
-        
-        "bullets": [
-            {
-            "label": "Project",
-            "text": "Built Parcel-Hub-Core, a Java 21 / Spring Boot logistics backend project covering parcel inbound/outbound workflows, user authentication, parcel status transitions, and event publishing."
-            },
-            {
-            "label": "Engineering Focus",
-            "text": "Practiced Kafka-based asynchronous messaging, Transactional Outbox, PostgreSQL, SpringData JPA/Hibernate, Redis, Spring Security JWT, integration testing with Testcontainers, and CI workflows with GitHub Actions."
-            }
-        ]
-      }
+    {
+      "organization": "Career Break & Backend Engineering Refresh",
+      "url": "https://github.com/lilyzhang4751/Parcel-Hub-Core",
+      "dates": "Aug 2025 - Present",
+      "note": "Took a planned career break after leaving Pinduoduo, including travel, relocation preparation, and focused backend engineering refresh for the German job market.",
+      "bullets": [
+        {
+          "label": "Project",
+          "text": "Built Parcel-Hub-Core, a Java 21 / Spring Boot logistics backend project covering parcel inbound/outbound workflows, user authentication, parcel status transitions, and event publishing."
+        },
+        {
+          "label": "Engineering Focus",
+          "text": "Practiced Kafka-based asynchronous messaging, Transactional Outbox, PostgreSQL, SpringData JPA/Hibernate, Redis, Spring Security JWT, integration testing with Testcontainers, and CI workflows with GitHub Actions."
+        }
+      ]
+    }
   ]
 }
-
